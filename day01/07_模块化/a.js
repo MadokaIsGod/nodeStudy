@@ -1,0 +1,5 @@
+console.log('a.start')
+let b = require('./b.js')
+console.log('a.end')
+console.log(b.foo)
+console.log(b.add(10, 20))
