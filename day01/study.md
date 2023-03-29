@@ -48,3 +48,4 @@
   (1)创建 mkdir
   (2)读取 readdir
   (3)删除 rmdir rm
+11.__dirame '全局变量': 所在文件的所在目录的绝对路径
