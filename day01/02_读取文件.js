@@ -14,4 +14,7 @@ let fs = require('fs')
 // 第二个参数是一个回调函数
 fs.readFile('../README.md', function (err, data) {
   console.log(data.toString())
-}) 
+})
+
+let data = fs.readFileSync('./study.md')
+console.log(data.toString())
